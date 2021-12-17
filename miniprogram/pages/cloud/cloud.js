@@ -1,4 +1,3 @@
-wx.cloud.init()
 const db = wx.cloud.database()  //获取数据库的引用
 const _ = db.command     //获取数据库查询及更新指令
 

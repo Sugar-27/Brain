@@ -1,6 +1,12 @@
 <!--index.wxml-->
 <view class='head'>
   <view class="diff">
+    <view class="itemView">姓名：
+      <input class="input" name="userName" placeholder="请输入姓名" bindinput="nameInput" />
+    </view>
+    <view class="itemView">学号或ID：
+      <input class="input" name="userName" placeholder="请输入学号或ID" bindinput="idInput" />
+    </view>
     <view class="itemView">服务设备：
       <input class="input" name="userName" placeholder="请输入服务设备名" bindinput="serviceInput" />
     </view>

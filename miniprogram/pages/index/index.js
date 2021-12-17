@@ -218,7 +218,7 @@ Page({
       year: time.getFullYear(),
       month: time.getMonth() + 1,
       date: time.getDate(),
-      day: getDay(),
+      day: time.getDay(),
       yi: yizuo[Math.floor((Math.random() * yizuo.length))],
       ji: jizuo[Math.floor((Math.random() * jizuo.length))],
     });
