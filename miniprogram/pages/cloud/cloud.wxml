@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class='head'>
+  <view class="itemView">查询姓名：
+    <input class="input" name="userName" placeholder="请输入想查看情绪数据的用户姓名" bindinput="nameInput" />
+  </view>
+  <button bindtap="search">显示具体数据</button>
+  <view class="data">
+    <view class="info">兴奋<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{e}}</view>
+    <view class="info">放松<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{r}}</view>
+    <view class="info">愉悦<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{j}}</view>
+    <view class="info">沉浸<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{i}}</view>
+    <view class="info">专注<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{c}}</view>
+    <view class="info">压力<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{p}}</view>
+  </view>
+  <button hover-class="button_hover" bindtap='JumpTo' data-flag="{{ min }}"><text class='text'>打开脑电报告</text></button>
+</view>

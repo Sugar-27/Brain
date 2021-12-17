@@ -1,0 +1,21 @@
+.itemView {
+  /* margin-top: 7%; */
+  text-align: left;
+  margin-bottom: 3%;
+  margin-left: 7%;
+}
+
+.data {
+  margin-top:50px;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 20px;
+  /* background-color: orange; */
+}
+
+
+.info {
+  /* font-size: 12px; */
+  margin-top: 10px;
+  /* background-color: red; */
+}

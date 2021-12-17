@@ -2,8 +2,23 @@
   "pages":[
     "pages/Welcome/welcome",
     "pages/index/index",
+    "pages/cloud/cloud",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [{
+      "pagePath": "pages/Welcome/welcome",
+      "text": "数据输入"
+    }, {
+      "pagePath": "pages/cloud/cloud",
+      "text": "数据查询"
+    }]
+  },
+  "usingComponents": {},
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
