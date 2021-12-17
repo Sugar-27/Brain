@@ -1,0 +1,52 @@
+<!--index.wxml-->
+<view class="hl_mainBox">
+  <!-- <image class='background' src="../../images/background" mode="aspectFill"></image> -->
+  <view class="title1">ART & ASESTHETICS LAB</view>
+  <view class="title2">放松体验反馈</view>
+
+  <view class="show">
+    <view class="showService">
+      <view class="info">服务设备： {{ser}}</view>
+      <view class="info">体验时长： {{min}}分钟</view>
+      <view class="info">体验内容： {{con}}</view>
+    </view>
+  </view>
+
+  <view class="picInfo">
+    <view class="chart">
+      <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec }}"></ec-canvas>
+    </view>
+    <view class="Info">
+      <!-- <view class="user-info">姓名：张三<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>性别：男</view> -->
+      <view class="compare">同 (<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>) 比较</view>
+      <view class="data">
+        <view class="info">兴奋<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{e}}</view>
+        <view class="info">放松<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{r}}</view>
+        <view class="info">愉悦<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{j}}</view>
+        <view class="info">沉浸<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{i}}</view>
+        <view class="info">专注<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{c}}</view>
+        <view class="info">压力<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{p}}</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="goodMorning">早 安</view>
+
+  <view class="Date">
+    <view class="doubleShow1">
+      <view class="hl_rilicon_l1">宜</view>
+      <view class="hl_rilicon_l2">{{yi}}</view>
+    </view>
+
+    <view class="doubleShow1">
+      <view class="day1">{{date}}</view>
+      <view class="day2">{{year}}-{{month}} {{day}}</view>
+    </view>
+
+    <view class="doubleShow2">
+      <view class="hl_rilicon_l1">忌</view>
+      <view class="hl_rilicon_l2">{{ji}}</view>
+    </view>
+  </view>
+  <view>{{time}}</view>
+</view>

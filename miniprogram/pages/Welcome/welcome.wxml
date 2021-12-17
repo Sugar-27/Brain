@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class='head'>
+  <view class="diff">
+    <view class="itemView">服务设备：
+      <input class="input" name="userName" placeholder="请输入服务设备名" bindinput="serviceInput" />
+    </view>
+    <view class="itemView">服务时间：
+      <input class="input" name="userName" placeholder="请输入服务时间" bindinput="servicetimeInput" />
+    </view>
+    <view class="itemView">体验内容：
+      <input class="input" name="userName" placeholder="请输入体验内容" bindinput="contentInput" />
+    </view>
+    <view class="itemView">兴奋值：
+      <input class="input" name="userName" placeholder="请输入兴奋值" bindinput="excitingInput" />
+    </view>
+    <view class="itemView">放松值：
+      <input class="input" name="userName" placeholder="请输入沉浸值" bindinput="relaxInput" />
+    </view>
+    <view class="itemView">愉悦值：
+      <input class="input" placeholder="请输入愉悦值" bindinput="joyfolInput" />
+    </view>
+    <view class="itemView">沉浸值：
+      <input class="input" placeholder="请输入沉浸值" bindinput="immerseInput" />
+    </view>
+    <view class="itemView">专注值：
+      <input class="input" placeholder="请输入专注值" bindinput="concentrateInput" />
+    </view>
+    <view class="itemView">压力值：
+      <input class="input" placeholder="请输入压力值" bindinput="pressInput" />
+    </view>
+  </view>
+  <button hover-class="button_hover" bindtap='JumpTo' data-flag="{{ min }}"><text class='text'>打开脑电报告</text></button>
+</view>
