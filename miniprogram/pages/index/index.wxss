@@ -1,7 +1,8 @@
 /**index.wxss**/
 
-/* page {
-} */
+page {
+  height: 100%;
+}
 
 .background {
   width: 100%;

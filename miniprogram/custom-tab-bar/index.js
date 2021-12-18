@@ -10,18 +10,19 @@ Component({
       text: "数据输入"
     }, {
       pagePath: "/pages/cloud/cloud",
-      iconPath: "/images/iconBar.png",
-      selectedIconPath: "/images/iconBar.png",
+      iconPath: "/images/iconBar2.png",
+      selectedIconPath: "/images/iconBar2.png",
       text: "数据查询"
     }]
   },
-  attached() {
-  },
+  attached() {},
   methods: {
     switchTab(e) {
       const data = e.currentTarget.dataset
       const url = data.path
-      wx.switchTab({url})
+      wx.switchTab({
+        url
+      })
       this.setData({
         selected: data.index
       })
