@@ -28,6 +28,7 @@ Page({
         selected: 0
       })
     }
+    this.initData();
   },
 
   //获取用户输入的用户名
@@ -180,11 +181,6 @@ Page({
           "&concentrate=" + this.data.concentrate + "&press=" + this.data.press,
       })
     }
-  },
-  onShow: function () {
-    // console.log(123);
-    this.initData();
-    // console.log(this.data.name)
   },
 
   onLoad() {
