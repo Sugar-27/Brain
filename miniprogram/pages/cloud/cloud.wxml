@@ -3,7 +3,12 @@
   <view class="itemView">查询姓名：
     <input class="input" name="userName" placeholder="请输入想查看情绪数据的用户姓名" bindinput="nameInput" />
   </view>
-  <button bindtap="search">显示具体数据</button>
+  <view class="itemView">
+  <button bindtap="search"><picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">显示具体数据</picker></button>
+      <view class="picker">
+        当前选择：{{array[index]}}
+      </view>
+  </view>
   <view class="data">
     <view class="info">兴奋<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{e}}</view>
     <view class="info">放松<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{r}}</view>

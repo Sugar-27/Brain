@@ -118,6 +118,7 @@ Page({
       hour: time.getHours(),
       minutes: time.getMinutes(),
     });
+    // 增加数据
     db.collection('emotive').add({
       data: {
         name: this.data.name,

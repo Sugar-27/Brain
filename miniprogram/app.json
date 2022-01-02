@@ -1,8 +1,8 @@
 {
   "pages":[
+    "pages/cloud/cloud",
     "pages/Welcome/welcome",
     "pages/index/index",
-    "pages/cloud/cloud",
     "pages/logs/logs"
   ],
   "tabBar": {
