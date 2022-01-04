@@ -15,7 +15,7 @@ Page({
       content: "",
       content: "",
       exciting: "",
-      joyfol: "",
+      joyful: "",
       immerse: "",
       concentrate: "",
       press: ""
@@ -81,9 +81,9 @@ Page({
   },
 
   // 获取愉悦值
-  joyfolInput: function (e) {
+  joyfulInput: function (e) {
     this.setData({
-      joyfol: e.detail.value
+      joyful: e.detail.value
     })
   },
 
@@ -129,7 +129,7 @@ Page({
         content: this.data.content,
         exciting: Number(this.data.exciting),
         relax: Number(this.data.relax),
-        joyfol: Number(this.data.joyfol),
+        joyful: Number(this.data.joyful),
         immerse: Number(this.data.immerse),
         concentrate: Number(this.data.concentrate),
         press: Number(this.data.press),
@@ -151,13 +151,13 @@ Page({
     console.log(this.data.relax.length)
     console.log(this.data.content.length)
     console.log(this.data.exciting.length)
-    console.log(this.data.joyfol.length)
+    console.log(this.data.joyful.length)
     console.log(this.data.immerse.length)
     console.log(this.data.concentrate.length)
     console.log(this.data.press.length)
     if (this.data.name.length == 0 || this.data.id.length == 0 || this.data.servicetime.length == 0 || this.data.service.length == 0 ||
       this.data.relax.length == 0 || this.data.content.length == 0 || this.data.exciting.length == 0 ||
-      this.data.joyfol.length == 0 || this.data.immerse.length == 0 || this.data.concentrate.length == 0 || this.data.press.length == 0) {
+      this.data.joyful.length == 0 || this.data.immerse.length == 0 || this.data.concentrate.length == 0 || this.data.press.length == 0) {
       return false;
     } else {
       return true;
@@ -178,7 +178,7 @@ Page({
         url: '../index/index?min=' + this.data.servicetime +
           "&ser=" + this.data.service + "&con=" + this.data.content +
           "&exciting=" + this.data.exciting + "&relax=" + this.data.relax +
-          "&joyfol=" + this.data.joyfol + "&immerse=" + this.data.immerse +
+          "&joyful=" + this.data.joyful + "&immerse=" + this.data.immerse +
           "&concentrate=" + this.data.concentrate + "&press=" + this.data.press,
       })
     }

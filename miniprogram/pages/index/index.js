@@ -8,7 +8,7 @@ var content = "状态感知";
 var minutes = 100;
 var exciting = 0;
 var relax = 0;
-var joyfol = 0;
+var joyful = 0;
 var immerse = 0;
 var concentrate = 0;
 var press = 0;
@@ -171,7 +171,7 @@ function initData(that) {
     r: relax
   })
   that.setData({
-    j: joyfol
+    j: joyful
   })
   that.setData({
     i: immerse
@@ -229,7 +229,7 @@ Page({
       // initData(this),
       exciting = options.exciting,
       relax = options.relax,
-      joyfol = options.joyfol,
+      joyful = options.joyful,
       immerse = options.immerse,
       concentrate = options.concentrate,
       press = options.press,
@@ -239,7 +239,7 @@ Page({
         con: options.con,
         e: options.exciting,
         r: options.relax,
-        j: options.joyfol,
+        j: options.joyful,
         i: options.immerse,
         c: options.concentrate,
         p: options.press,
@@ -328,7 +328,7 @@ Page({
                 value: relax,
                 name: '放松'
               }, {
-                value: joyfol,
+                value: joyful,
                 name: '愉悦'
               }, {
                 value: exciting,

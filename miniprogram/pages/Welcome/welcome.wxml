@@ -23,7 +23,7 @@
       <input class="input" name="userName" placeholder="请输入沉浸值" bindinput="relaxInput" />
     </view>
     <view class="itemView">愉悦值：
-      <input class="input" placeholder="请输入愉悦值" bindinput="joyfolInput" />
+      <input class="input" placeholder="请输入愉悦值" bindinput="joyfulInput" />
     </view>
     <view class="itemView">沉浸值：
       <input class="input" placeholder="请输入沉浸值" bindinput="immerseInput" />

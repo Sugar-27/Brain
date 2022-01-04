@@ -14,7 +14,7 @@ Page({
   data: {
     name: "",
     emotiveData: [],
-    array: ["202222"],
+    array: [""],
   },
   nameInput: function (name) {
     this.setData({
@@ -35,7 +35,7 @@ Page({
       content: this.data.emotiveData[this.data.index]['content'],
       e: this.data.emotiveData[this.data.index]['exciting'],
       r: this.data.emotiveData[this.data.index]['relax'],
-      j: this.data.emotiveData[this.data.index]['joyfol'],
+      j: this.data.emotiveData[this.data.index]['joyful'],
       i: this.data.emotiveData[this.data.index]['immerse'],
       c: this.data.emotiveData[this.data.index]['concentrate'],
       p: this.data.emotiveData[this.data.index]['press']
@@ -67,7 +67,7 @@ Page({
         //   content: res.data[0]['content'],
         //   e: res.data[0]['exciting'],
         //   r: res.data[0]['relax'],
-        //   j: res.data[0]['joyfol'],
+        //   j: res.data[0]['joyful'],
         //   i: res.data[0]['immerse'],
         //   c: res.data[0]['concentrate'],
         //   p: res.data[0]['press']
@@ -84,7 +84,7 @@ Page({
       url: '../index/index?min=' + this.data.servicetime +
         "&ser=" + this.data.service + "&con=" + this.data.content +
         "&exciting=" + this.data.e + "&relax=" + this.data.r +
-        "&joyfol=" + this.data.j + "&immerse=" + this.data.i +
+        "&joyful=" + this.data.j + "&immerse=" + this.data.i +
         "&concentrate=" + this.data.c + "&press=" + this.data.p,
     })
   },
