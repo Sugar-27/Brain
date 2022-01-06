@@ -40,7 +40,7 @@
         "useCompilerPlugins": false
     },
     "appid": "wxd71d6a892bb451ba",
-    "projectname": "miniprogram-3",
+    "projectname": "Brain",
     "libVersion": "2.14.1",
     "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
     "condition": {
