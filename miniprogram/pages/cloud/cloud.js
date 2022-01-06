@@ -85,7 +85,8 @@ Page({
         "&ser=" + this.data.service + "&con=" + this.data.content +
         "&exciting=" + this.data.e + "&relax=" + this.data.r +
         "&joyful=" + this.data.j + "&immerse=" + this.data.i +
-        "&concentrate=" + this.data.c + "&press=" + this.data.p,
+        "&concentrate=" + this.data.c + "&press=" + this.data.p +
+        "&name=" + this.data.name,
     })
   },
 

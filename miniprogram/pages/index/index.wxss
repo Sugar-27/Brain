@@ -71,8 +71,14 @@ page {
   margin-left: 13%;
 }
 
+.info1 {
+  font-size: 12px;
+  /* background-color: red; */
+}
+
 .info {
   font-size: 12px;
+  /* text-align: center; */
   /* background-color: red; */
 }
 
