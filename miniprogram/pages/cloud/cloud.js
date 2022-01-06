@@ -54,7 +54,7 @@ Page({
         })
         this.data.array.splice(0, this.data.array.length)
         for (let index = 0; index < this.data.emotiveData.length; index++) {
-          this.data.array.push(this.data.emotiveData[index]['date'])
+          this.data.array.push(this.data.emotiveData[index]['date'] + "    " + this.data.emotiveData[index]['dateTime'])
         }
         this.data.array = Array.from(this.data.array)
         this.setData({
