@@ -10,13 +10,14 @@
       <view class="info">体验内容： {{con}}</view>
     </view>
   </view>
-
+  <!-- <view class="chart">
+      <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec }}"></ec-canvas>
+    </view> -->
   <view class="picInfo">
     <view class="chart">
       <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec }}"></ec-canvas>
     </view>
     <view class="Info">
-      <!-- <view class="user-info">姓名：张三<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>性别：男</view> -->
       <view class="compare">同 (<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>) 比较</view>
       <view class="data">
         <view class="info">兴奋<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;</text>{{e}}</view>

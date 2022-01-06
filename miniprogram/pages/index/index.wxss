@@ -53,7 +53,7 @@ page {
 }
 
 .show {
-  margin-top: 40px;
+  margin-top: 40rpx;
   /* background-color: red; */
   font-family: PingFang SC;
   display: flex;
@@ -88,8 +88,9 @@ page {
 }
 
 .picInfo {
-  margin-top: -10px;
-  margin-left: 11%;
+  position: relative;
+  /* margin-top: -10px;
+  margin-left: 11%; */
   /* background-color: red; */
   font-family: PingFang SC;
   display: flex;
@@ -98,9 +99,11 @@ page {
 }
 
 .Info {
-  padding-left: 10px;
-  line-height: 28px;
-  width: 200px;
+  padding-left: 10rpx;
+  line-height: 50rpx;
+  width: auto;
+  /* margin-right: 70rpx; */
+  /* width: 200px; */
 }
 
 .compare {
@@ -177,11 +180,12 @@ page {
 }
 
 .chart {
-  margin-top: -3%;
-  margin-left: -10px;
-  /* background-color: #f6f6f6; */
-  height: 200px;
-  width: 100%;
+  position: relative;
+  margin-top: 15rpx;
+  margin-left: 60rpx;
+  /* background-color: blue; */
+  height: 300rpx;
+  width: 400rpx;
 }
 
 .hl_mainBox {

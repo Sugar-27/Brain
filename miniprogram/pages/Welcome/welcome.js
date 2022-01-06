@@ -133,7 +133,7 @@ Page({
         immerse: Number(this.data.immerse),
         concentrate: Number(this.data.concentrate),
         press: Number(this.data.press),
-        id: Number(this.data.id),
+        id: this.data.id,
       },
       success: res => {
         console.log(res);
